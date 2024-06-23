@@ -5,3 +5,4 @@ To get started with the project, follow these steps:
    ```sh
    git clone <repository-url>
    cd my-web-application# CS326
+# CS326
