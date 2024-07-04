@@ -1,0 +1,33 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "license": "AGPL-version-3.0",
+  "private": false,
+  "author": {
+    "name": "Anhat Singh",
+    "email": "anhatsingh@umass.edu"
+    
+  },
+  "scripts": {
+    "start": "http-server src/frontend -p 3000 -c-1 -o -s"
+  },
+  "engines": {
+    "node": ">= 14.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": "",
+  "keywords": [],
+  "contributors": [],
+ 
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}

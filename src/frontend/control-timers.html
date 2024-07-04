@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control Traffic Timers</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="timers-container">
+        <h2>Control Traffic Timers</h2>
+        <table id="timerSettingsTable">
+            <thead>
+                <tr>
+                    <th>Intersection Location</th>
+                    <th>Intersection Number</th>
+                    <th>Current Traffic Condition</th>
+                    <th>Current Setting</th> <!-- New column for current settings -->
+                    <th>Change Setting</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <div id="settingsModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>Adjust Traffic Timer</h3>
+            <select id="newTrafficLevel">
+                <option value="Very Low">Very Low</option>
+                <option value="Low">Low</option>
+                <option value="Medium">Medium</option>
+                <option value="High">High</option>
+                <option value="Very High">Very High</option>
+            </select>
+            <button onclick="applyNewSettings()">Apply</button>
+        </div>
+    </div>
+    <script src="store.js"></script>
+    <script src="control-timers.js"></script>
+</body>
+</html>
